@@ -1,5 +1,5 @@
 
-public class RegularFrac {
+public class RegularFrac implements Cloneable {
         private long numerator = 1L;
         private long denumerator = 1L;
 
@@ -48,5 +48,10 @@ public class RegularFrac {
         public long getDenumerator() {
             return this.denumerator;
         }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
+}
 
