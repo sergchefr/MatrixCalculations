@@ -17,6 +17,10 @@ public class RegularFrac {
             }
         }
 
+        public RegularFrac(long c){
+            this(c,1);
+        }
+
         private long maxDev(long a, long b) {
             long c = 1L;
 

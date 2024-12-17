@@ -25,4 +25,8 @@ public class FracMath {
     public static RegularFrac FracPow(RegularFrac a, int p){
         return new RegularFrac((long)Math.pow(a.getNumerator(),p),(long)Math.pow(a.getDenumerator(),p));
     }
+
+    public static RegularFrac devide(RegularFrac a, RegularFrac devidor){
+        return prod(a,revert(devidor));
+    }
 }
