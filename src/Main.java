@@ -12,6 +12,8 @@ public class Main {
         });
 
         System.out.println(c);
+        System.out.println(a);
+        System.out.println(b);
         //System.out.println(new long[][]{{1,2,3},{4,5,6},{7,8,9}}.length);
         // SYSTEM.OUT SASI JOPU
 
