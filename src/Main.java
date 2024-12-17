@@ -2,11 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    Frac a = new Frac(0,8, 16);
-    Frac b = new Frac(12.25);
+    RegularFrac a = new RegularFrac(1,8);
+        RegularFrac b = new RegularFrac(64,8);
 
-    System.out.println(b);
-    System.out.println(a);
+    System.out.println(FracMath.prod(a,b));
 
 
     }
