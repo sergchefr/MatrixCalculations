@@ -20,7 +20,7 @@ public class RegularFrac {
         private long maxDev(long a, long b) {
             long c = 1L;
 
-            for(int i = 2; (long)i <= Math.min(a, b); ++i) {
+            for(long i = 2; (long)i <= Math.min(a, b); ++i) {
                 if (a % (long)i == 0L & b % (long)i == 0L) {
                     c = (long)i;
                 }
