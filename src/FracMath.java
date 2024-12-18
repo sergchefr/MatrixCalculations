@@ -29,4 +29,6 @@ public class FracMath {
     public static RegularFrac devide(RegularFrac a, RegularFrac devidor){
         return prod(a,revert(devidor));
     }
+
+
 }

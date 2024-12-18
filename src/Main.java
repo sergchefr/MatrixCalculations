@@ -8,8 +8,7 @@ public class Main {
         Matrix c = new Matrix(new long[][]{
                 {1,2,3},
                 {4,5,6},
-                {7,8,9},
-                {10,11,12}
+                {7,8,9}
         });
 
         Matrix d=new Matrix(new long[][]{{1,2,3,4},{5,6,7,8}});
@@ -18,9 +17,13 @@ public class Main {
         //System.out.println(c.getWidth());
         //System.out.println(c.getHeight());
         System.out.println(c);
-        System.out.println(d);
-        System.out.println(MatrixMath.prod(d,c));
+        //System.out.println(d);
+        System.out.println(MatrixMath.getMinor(c, 0,0));
+        System.out.println(MatrixMath.getDet2x2(MatrixMath.getMinor(c, 0,0)));
+        //System.out.println(MatrixMath.prod(d,c));
         //System.out.println(c.getMatrix()[0][1]);
+        //System.out.println(new long[][]{{1,2,3},{4,5,6},{7,8,9}}.length);
+        // SYSTEM.OUT SASI JOPU
 
     }
 }
